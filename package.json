@@ -1,10 +1,11 @@
 {
-	"name": "electronapp",
+	"name": "proctoring",
 	"version": "1.0.0",
-	"description": "for detect monitors and apps",
-	"main": "index.js",
+	"description": "RealSoft application for checking your device",
+	"type": "module",
+	"main": "src/main.js",
 	"scripts": {
-		"start": "electron .",
+		"dev": "electron .",
 		"build": "electron-builder",
 		"build-win": "electron-builder --win --ia32",
 		"build-linux": "electron-builder --linux"
@@ -24,7 +25,7 @@
 			"icon": "assets/logo.png"
 		}
 	},
-	"author": "Xurshid Karimov",
+	"author": "RealSoft",
 	"license": "ISC",
 	"dependencies": {
 		"active-win": "^8.2.1",

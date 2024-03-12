@@ -6,13 +6,6 @@ import { setupWebSocketServer } from './websocket/websocketServer.js';
 import { getNumberOfMonitors, getApps } from './utils/utils.js';
 
 app.on('ready', () => {
-	const iconPath = path.join(app.getAppPath(), 'assets', 'logo.png');
-	if (process.platform === 'darwin') {
-		app.dock.setIcon(iconPath);
-	} else {
-		app.applicationIcon = iconPath;
-	}
-
 	// Создаем HTTP сервер
 	const server = http.createServer(async (req, res) => {
 		res.setHeader('Access-Control-Allow-Origin', '*');

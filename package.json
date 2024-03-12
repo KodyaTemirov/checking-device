@@ -1,5 +1,5 @@
 {
-	"name": "proctoring",
+	"name": "electronapp",
 	"version": "1.0.0",
 	"description": "RealSoft application for checking your device",
 	"type": "module",
@@ -25,7 +25,7 @@
 			"icon": "assets/logo.png"
 		}
 	},
-	"author": "RealSoft",
+	"author": "Xurshid Karimov",
 	"license": "ISC",
 	"dependencies": {
 		"active-win": "^8.2.1",
